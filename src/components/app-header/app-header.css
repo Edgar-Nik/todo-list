@@ -1,0 +1,12 @@
+.header-wrap{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.app-header{
+    font-size: 40px;
+}
+.count{
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.item-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.todo-list-item{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.item-btn{
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #ffffff;
+    margin-left: 10px;
+
+}
+.item-btn:focus {
+    outline: none;
+}
+.item-important-btn{
+    border: 1px solid #1dcd37;
+    color: #1dcd37;
+
+
+}
+.item-delete-btn{
+    border: 1px solid #ef1212;
+    color: #ef1212;
+
+}
+.todo-list-item-label{
+    font-size: 18px;
+    cursor: pointer;
+}

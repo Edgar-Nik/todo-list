@@ -1,0 +1,18 @@
+.filter-buttons{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+
+}
+.filter-button{
+    height: 100%;
+   border-radius: 4px;
+    outline: none;
+    background: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.filter-button:focus{
+    outline: none;
+}
