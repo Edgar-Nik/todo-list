@@ -1,0 +1,11 @@
+.item-add-form{
+	margin-top:20px; 
+	display:flex;
+	
+}
+.add-input{
+	width: 80%;
+}
+.item-add-form > button{
+	margin:0 auto;
+}

@@ -35,4 +35,12 @@
 .todo-list-item-label{
     font-size: 18px;
     cursor: pointer;
+    user-select: none;
+}
+.done{
+    text-decoration: line-through;
+}
+.todo-list-item.important .todo-list-item-label{
+    color: #507df4;
+    font-weight: bold;
 }
